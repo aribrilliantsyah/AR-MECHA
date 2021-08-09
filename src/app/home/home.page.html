@@ -1,0 +1,49 @@
+<ion-content [fullscreen]="true">
+  <div header>
+    <ion-img [src]="logo" img-logo></ion-img>
+  </div>
+  <ion-slides [options]="slideOpts">
+    <ion-slide>
+      <ion-img src="../../assets/images/slides/slide-01.png"></ion-img>
+    </ion-slide>
+    <ion-slide>
+      <ion-img src="../../assets/images/slides/slide-02.png"></ion-img>
+    </ion-slide>
+    <ion-slide>
+      <ion-img src="../../assets/images/slides/slide-03.png"></ion-img>
+    </ion-slide>
+  </ion-slides>
+  <ion-img src="../../assets/images/decorator.png"></ion-img>
+  <div id="container">
+    <ion-card card-button (click)="scanMarker()">
+      <ion-card-content>
+        <ion-card-title>
+          <ion-item lines="none">
+            <ion-icon name="barcode-outline" slot="start"></ion-icon>
+            <ion-label>SCAN MARKER</ion-label>
+          </ion-item>
+        </ion-card-title>
+      </ion-card-content>
+    </ion-card>
+    <ion-card card-button (click)="openListMarker()">
+      <ion-card-content>
+        <ion-card-title>
+          <ion-item lines="none">
+            <ion-icon name="list-outline" slot="start"></ion-icon>
+            <ion-label>LIST MARKER</ion-label>
+          </ion-item>
+        </ion-card-title>
+      </ion-card-content>
+    </ion-card>
+    <ion-card card-button (click)="navigateToAbout()">
+      <ion-card-content>
+        <ion-card-title>
+          <ion-item lines="none">
+            <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+            <ion-label>ABOUT</ion-label>
+          </ion-item>
+        </ion-card-title>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

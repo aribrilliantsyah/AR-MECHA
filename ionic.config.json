@@ -1,0 +1,7 @@
+{
+  "name": "mechaAR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,36 @@
+
+
+[header]{
+  height: 56px;
+  background: var(--ion-bgcus1);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+[img-logo]{
+  height: 28px !important;
+
+}
+
+ion-card[yellow]{
+  --background: #FFF6B8;
+  box-shadow: none;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+}
+
+ion-card-title [center]{
+  text-align: center;
+}
+ion-card-subtitle [center]{
+  text-align: center;
+}
+ion-card[card-button]{
+  box-shadow: none;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+#container{
+  padding: 0px 10px;
+}
